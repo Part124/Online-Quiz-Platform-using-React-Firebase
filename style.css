@@ -1,0 +1,68 @@
+/* ===== Login Page Styling ===== */
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Login card */
+
+.auth-container {
+    background: #ffffff;
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+/* Heading */
+
+.auth-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* Inputs */
+
+.auth-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+
+/* Button */
+
+.auth-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.auth-container button:hover {
+    background-color: #5a67d8;
+}
+
+
+/* Link */
+
+.auth-container a {
+    display: block;
+    margin-top: 15px;
+    color: #667eea;
+    font-size: 14px;
+}
